@@ -29,14 +29,14 @@ public class House_Stark extends Stark_Army implements IDistribute{
         setNights_watch(starkArray[2]);
         setHorsemen(starkArray[3]);
         setKnights(starkArray[4]);
-        setElephantmen(starkArray[5]);
+        setWar_elephants(starkArray[5]);
 
         System.out.println("Soldiers : " +getSoldiers());
         System.out.println("Wildlings : " +getWildlings());
         System.out.println("Nights Watch : " +getNights_watch());
         System.out.println("Horsemen : " +getHorsemen());
         System.out.println("Knights :" +getKnights());
-        System.out.println("Elephantmen : " +getElephantmen());
+        System.out.println("War Elephants : " +getWar_elephants());
         System.out.println("Giant : " +getGiant());
     }
 }

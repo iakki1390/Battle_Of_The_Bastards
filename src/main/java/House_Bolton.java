@@ -27,11 +27,11 @@ public class House_Bolton extends Bolton_Army implements IDistribute {
         setSoldiers(boltonArray[0]);
         setHorsemen(boltonArray[1]);
         setKnights(boltonArray[2]);
-        setElephantmen(boltonArray[3]);
+        setWar_elephants(boltonArray[3]);
 
         System.out.println("Soldiers : " +getSoldiers());
         System.out.println("Horsemen : " +getHorsemen());
         System.out.println("Knights :" +getKnights());
-        System.out.println("Elephantmen : " +getElephantmen());
+        System.out.println("Elephantmen : " +getWar_elephants());
     }
 }

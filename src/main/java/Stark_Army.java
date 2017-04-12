@@ -6,7 +6,7 @@ public class Stark_Army {
     private int soldiers;
     private final int giant = 1;
     private int horsemen;
-    private int elephantmen;
+    private int war_elephants;
     private int wildlings;
     private int knights;
     private int nights_watch;
@@ -31,12 +31,12 @@ public class Stark_Army {
         this.horsemen = horsemen;
     }
 
-    public int getElephantmen() {
-        return elephantmen;
+    public int getWar_elephants() {
+        return war_elephants;
     }
 
-    public void setElephantmen(int elephantmen) {
-        this.elephantmen = elephantmen;
+    public void setWar_elephants(int war_elephants) {
+        this.war_elephants = war_elephants;
     }
 
     public int getWildlings() {

@@ -7,6 +7,7 @@ public class Bolton_Army {
     private int horsemen;
     private int war_elephants;
     private int knights;
+    private int bowmen;
 
     public int getSoldiers() {
         return soldiers;
@@ -38,5 +39,13 @@ public class Bolton_Army {
 
     public void setKnights(int knights) {
         this.knights = knights;
+    }
+
+    public int getBowmen() {
+        return bowmen;
+    }
+
+    public void setBowmen(int bowmen) {
+        this.bowmen = bowmen;
     }
 }

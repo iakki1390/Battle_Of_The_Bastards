@@ -4,12 +4,14 @@
 public class Stark_Army {
 
     private int soldiers;
+    //Condition 1
     private final int giant = 1;
     private int horsemen;
-    private int war_elephants;
     private int wildlings;
     private int knights;
     private int nights_watch;
+    private int bowmen;
+
 
     public int getSoldiers() {
         return soldiers;
@@ -29,14 +31,6 @@ public class Stark_Army {
 
     public void setHorsemen(int horsemen) {
         this.horsemen = horsemen;
-    }
-
-    public int getWar_elephants() {
-        return war_elephants;
-    }
-
-    public void setWar_elephants(int war_elephants) {
-        this.war_elephants = war_elephants;
     }
 
     public int getWildlings() {
@@ -61,5 +55,13 @@ public class Stark_Army {
 
     public void setNights_watch(int nights_watch) {
         this.nights_watch = nights_watch;
+    }
+
+    public int getBowmen() {
+        return bowmen;
+    }
+
+    public void setBowmen(int bowmen) {
+        this.bowmen = bowmen;
     }
 }

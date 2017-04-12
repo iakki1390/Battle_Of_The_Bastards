@@ -1,6 +1,4 @@
-import java.io.Console;
 import java.io.IOException;
-import java.io.SyncFailedException;
 import java.util.Scanner;
 
 /**
@@ -11,8 +9,8 @@ public class Battle_Start{
     public static void main(String[] args) throws IOException {
 
         Battle_Start battle = new Battle_Start();
-        House_Stark houseStark = new House_Stark();
-        House_Bolton houseBolton = new House_Bolton();
+        IDistribute distribute_stark=new House_Stark();
+        IDistribute distribute_bolton=new House_Bolton();
         System.out.println("Welcome to Battle of the Bastards");
         System.out.println("---------------------------------");
         System.out.println("1. House Stark");
@@ -24,7 +22,7 @@ public class Battle_Start{
         System.out.println("----------------------------------");
         System.out.println("Distributing the Stark Stark_Army");
         System.out.println("----------------------------------");
-        houseStark.randomize(starkArmy);
+        distribute_stark.randomize(starkArmy);
         System.out.println("----------------------------------");
         System.out.println("Choose the number of Bolton soldiers : ");
         Scanner sc2 = new Scanner(System.in);
@@ -32,7 +30,7 @@ public class Battle_Start{
         System.out.println("----------------------------------");
         System.out.println("Distributing the Bolton Stark_Army ");
         System.out.println("----------------------------------");
-        houseBolton.randomize(boltonArmy);
+        distribute_bolton.randomize(boltonArmy);
         System.out.println("----------------------------------");
         System.out.println("Press ENTER to start the battle");
         System.out.println("----------------------------------");
@@ -49,7 +47,23 @@ public class Battle_Start{
 
         System.out.println("The battle has begun.....");
 
+        House_Bolton houseBolton=new House_Bolton();
+        House_Stark houseStark=new House_Stark();
+        double boltons = houseBolton.scores_boltons();
+        double starks = houseStark.scores_starks();
+
+        System.out.println();
+        System.out.println();
 
 
+        if(starks>boltons){
+            System.out.println("The STARKS won the battle...");
+        }
+        else if(starks<boltons){
+            System.out.println("The BOLTONS won the battle...");
+        }
+        else{
+            System.out.println("War always brings misery. Everybody died in the battle...");
+        }
     }
 }

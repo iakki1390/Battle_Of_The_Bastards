@@ -1,7 +1,7 @@
 /**
  * Created by Freakanomic on 4/12/17.
  */
-public class Rules extends House_Bolton{
+public class Rules{
 
     Bolton_Army boltonArmy = new Bolton_Army();
     Stark_Army starkArmy = new Stark_Army();

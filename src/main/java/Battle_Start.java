@@ -66,6 +66,7 @@ public class Battle_Start{
         else if(starks<boltons){
             System.out.println("The BOLTONS won the battle...");
         }
+        //Edge Case
         else{
             System.out.println("War always brings misery. Everybody died in the battle...");
         }

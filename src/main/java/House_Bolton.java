@@ -37,33 +37,5 @@ public class House_Bolton extends Bolton_Army implements IDistribute {
         System.out.println("Bowmen : " +getBowmen());
     }
 
-    public double scores_boltons(){
 
-        Stark_Army starkArmy= new Stark_Army();
-
-        double soldierScore = 0;
-        double bowmenScore = getBowmen()*18.5;
-        double horsemanScore = getHorsemen()*6.5;
-        double knightsScore = getKnights()*13.5;
-        double elephantScore = getWar_elephants()*30;
-
-        int wildlings = starkArmy.getWildlings();
-        int horsemen_count = starkArmy.getHorsemen();
-
-        //Condition 7
-        if(getSoldiers()>wildlings){
-            soldierScore=(getSoldiers()-wildlings)*3.5;
-        }
-
-        //Condition 9
-        if(getBowmen()>2000){
-            starkArmy.setHorsemen(horsemen_count/2);
-        }
-
-
-
-
-        double final_score_boltons = soldierScore+bowmenScore+horsemanScore+knightsScore+elephantScore;
-        return final_score_boltons;
-    }
 }

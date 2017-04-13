@@ -47,13 +47,17 @@ public class Battle_Start{
 
         System.out.println("The battle has begun.....");
 
-        House_Bolton houseBolton=new House_Bolton();
-        House_Stark houseStark=new House_Stark();
-        double boltons = houseBolton.scores_boltons();
-        double starks = houseStark.scores_starks();
+        Rules rules = new Rules();
+
+        rules.rules_by_precedence();
+
+        double boltons = rules.calculate_boltonScores();
+        double starks = rules.calculate_starkScores();
+
 
         System.out.println();
         System.out.println();
+
 
 
         if(starks>boltons){

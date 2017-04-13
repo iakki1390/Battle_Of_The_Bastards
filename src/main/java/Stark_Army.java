@@ -3,14 +3,14 @@
  */
 public class Stark_Army {
 
-    private int soldiers;
+    private static int soldiers;
     //Condition 1
-    private final int giant = 1;
-    private int horsemen;
-    private int wildlings;
-    private int knights;
-    private int nights_watch;
-    private int bowmen;
+    private static final int giant = 1;
+    private static int horsemen;
+    private static int wildlings;
+    private static int knights;
+    private static int nights_watch;
+    private static int bowmen;
 
 
     public int getSoldiers() {

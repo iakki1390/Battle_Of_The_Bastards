@@ -3,11 +3,11 @@
  */
 public class Bolton_Army {
 
-    private int soldiers;
-    private int horsemen;
-    private int war_elephants;
-    private int knights;
-    private int bowmen;
+    private static int soldiers;
+    private static int horsemen;
+    private static int war_elephants;
+    private static int knights;
+    private static int bowmen;
 
     public int getSoldiers() {
         return soldiers;

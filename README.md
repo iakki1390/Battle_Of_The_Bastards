@@ -16,3 +16,13 @@ each War elephant.
 9. Starks Horsemen are more powerful than Boltons Horsemen.
 10. If Bowmen of Bolton Army are more than 2000, Stark Horsemen will be eliminated by 50%.
 11. Nights Watch have special skills. If Night's watch are more than 100, 10% of Bolton Knights will be eliminated.
+
+How to Run
+-----------
+
+1. Download/Clone the project.
+2. Navigate to the downloaded/cloned project folder path containing pom.xml via CLI.
+3. Enter the following commands
+    a. mvn clean
+    b. mvn package
+    c. java -cp target/Battle_Of_The_Bastards-1.0-SNAPSHOT.jar Battle_Start

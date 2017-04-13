@@ -22,8 +22,6 @@ How to Run
 
 1. Download/Clone the project.
 2. Navigate to the downloaded/cloned project folder path containing pom.xml via CLI.
-3. Enter the following commands
-
-a. mvn clean
-b. mvn package
-c. java -cp target/Battle_Of_The_Bastards-1.0-SNAPSHOT.jar Battle_Start
+3. mvn clean
+4. mvn package
+5. java -cp target/Battle_Of_The_Bastards-1.0-SNAPSHOT.jar Battle_Start

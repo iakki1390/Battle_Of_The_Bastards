@@ -8,7 +8,7 @@ Bolton Army vs Stark Army (Facts)
 2. Giant gives Stark Army - 1000 points.
 3. If there are 4000+ soldiers in Bolton Army - Giant will be eliminated.
 4. Knights of Bolton Army are stronger than Knights of Stark Army.
-5. Stark soldiers are little stronger than Bolton Soldiers.+
+5. Stark soldiers are little stronger than Bolton Soldiers.
 6. War Elephants are present only in Bolton Army and are very powerful to kill 50 soldiers at a time. 30 points for
 each War elephant.
 7. Bowmen of Bolton Army have better accuracy than Bowmen of Stark Army
